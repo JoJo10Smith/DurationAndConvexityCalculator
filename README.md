@@ -5,6 +5,8 @@ A VBA and excel workbook that calculates the Macaulay and Modified durations and
 
 The duration and convexity of an asset is useful for an investor to know since it will tell them how much they can expect to lose/gain when interest rates change. I was able to build an excel workbook that uses user input and calculates both the Modified and Macaulay durations and convexities for a wide range of assets. After getting user input, the workbook is able to calculate all the values and ouput them in the excel sheet.
 
+![Example Image from the Excel Workbook](https://github.com/JoJo10Smith/DurationAndConvexityCalculator/blob/main/Example_Images/VBA%20comonent.JPG)
+
 ***Graphing Component***
 
 I found during my analysis that the price yeild curve changes over time - the price-yeild curve for a bond is not the same throughout the life of the bond. To show the relationship between the price-yeild curve and time I wrote a python program that plots the different price-yeild curve and connects them to create a price-yeild-time curve. I found that some bonds - depending on the interest rate - changed a lot during the life of the bond as illustated in the graph below
